@@ -1,5 +1,5 @@
 {
-  "name": "@bht/env",
+  "name": "@bahatron/env",
   "version": "0.1.0",
   "description": "A simple store for enviromental variables",
   "main": "lib/index.js",

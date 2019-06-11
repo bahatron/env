@@ -4,12 +4,12 @@ A simple store for environmental variables
 
 ## Installation
 
-`npm install @bht/env`
+`npm install @bahatron/env`
 
 ## Usage
 
 ```ts
-import $env from "@bht/env";
+import $env from "@bahatron/env";
 
 const myVar = $env.get("MY_VAR", "default_val");
 ```
