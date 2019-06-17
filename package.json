@@ -1,16 +1,12 @@
 {
   "name": "@bahatron/env",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple store for enviromental variables",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "mocha -b -r ts-node/register \"tests/**/*.mocha.ts\"",
     "build": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bahatron/env.git"
   },
   "keywords": [
     "env"
