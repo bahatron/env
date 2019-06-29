@@ -1,4 +1,5 @@
 src/
 tests/
+.git/
 tsconfig.json
 node_mmodules/
