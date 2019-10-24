@@ -1,4 +1,4 @@
-import $env from "../src";
+import $env from "../src/index";
 import { expect } from "chai";
 
 describe("get", () => {
@@ -10,7 +10,7 @@ describe("get", () => {
         expect($env.get("bar")).to.equal("0");
     });
 
-    it("returns a default value if variable is not set and was passed as second parameter", () => {
+    it("returns a default value if env is not set and was passed as second parameter", () => {
         delete process.env.var;
 
         let result = $env.get("var", "default_value");
