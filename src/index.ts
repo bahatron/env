@@ -1,4 +1,4 @@
-const $env = {
+export default {
     get(key: string, defaultValue?: string): string {
         const value = process.env[key];
 
@@ -13,5 +13,3 @@ const $env = {
         throw new Error(`${key} is not set in environment`);
     },
 };
-
-export default $env;
