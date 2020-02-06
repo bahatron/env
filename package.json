@@ -1,6 +1,6 @@
 {
   "name": "@bahatron/env",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "A simple store for enviromental variables",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
